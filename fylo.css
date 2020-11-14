@@ -1,0 +1,316 @@
+*{
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+	font-size: 62.5%;
+}
+
+header{
+	width: 100%; height: 100vh;
+	overflow-x: hidden;
+}
+
+header .mainheader{
+	width: 100%; height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .mainheader .logo{
+	width: 50%; 
+	margin-left: 60px;
+}
+
+header .mainheader .logo img{
+	width: 110px; height: 30px;
+}
+
+header .mainheader nav{
+	width: 30%;
+	margin-right: 20px; 
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header .mainheader nav a{
+	color: #000;
+	text-decoration: none;
+	font-size: 0.7rem;
+}
+
+.section1{
+	width: 100%; height: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section1 .right_sec1{
+	width: 50%;
+	float: right;
+}
+
+.section1 .right_sec1 img{
+	width: 450px; height: 350px;
+}
+
+.section1 .left_sec1{
+	width: 35%;
+	margin-left: 160px;
+	transform: translateY(70px);
+}
+
+.section1 .left_sec1 h1{
+	font-size: 2rem;
+	margin: 20px 0px;
+}
+
+.section1 .left_sec1 p{
+	width: 80%;
+	margin: 20px 0px;
+	font-size: 0.8rem;
+}
+
+.section1 .left_sec1 input{
+	margin: 15px 20px 15px 0px;
+	padding: 10px 30px;
+	border: 0.4px solid hsl(0, 0%, 75%);
+	border-radius: 2px;
+	outline: none;
+}
+
+.section1 .left_sec1 span button{
+	margin: 15px 20px 15px 0px;
+	padding: 10px 40px;
+	border: none;
+	border-radius: 2px;
+	outline: none;
+	background-color: hsl(224, 93%, 58%);
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.section1 .left_sec1 span button:hover{
+	background-color: hsl(170, 45%, 43%);
+}
+
+.section2{
+	width: 100%; height: 550px;
+	background-image: url('images/bg-curve-desktop.svg');
+	background-repeat: no-repeat;
+	background-size: 150% 150%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section2 .right_sec2{
+	width: 50%;
+	float: right;
+}
+
+.section2 .right_sec2 img{
+	width: 450px; height: 350px;
+	transform: translate(80px,100px);
+}
+
+.section2 .left_sec2{
+	width: 40%;
+	margin-left: 160px;
+	transform: translateY(70px);
+}
+
+.section2 .left_sec2 h1{
+	font-size: 2rem;
+	margin: 20px 0px;
+}
+
+.section2 .left_sec2 p{
+	width: 80%;
+	margin: 20px 0px;
+	font-size: 0.8rem;
+}
+
+.section2 .left_sec2 .link{
+	width: 150px;
+	margin-bottom: 50px;
+	font-size: 0.7rem;
+}
+
+.section2 .left_sec2 .link a{
+	text-decoration: none;
+	color: hsl(170, 45%, 43%);
+	border-bottom: 0.5px solid hsl(170, 45%, 43%);
+}
+
+.section2 .left_sec2 .textbox{
+	width: 270px; height: 170px;
+	padding: 20px 30px;
+	background-color: #fff;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 2px 8px 0px hsl(0, 0%, 75%);
+}
+
+.section2 .left_sec2 .textbox img{
+	width: 10px; height: 10px;
+}
+
+.section2 .left_sec2 .textbox p{
+	width: 100%;
+	line-height: 15px;
+	font-size: 0.6rem;
+	transform: translateY(-10px);
+}
+
+.section2 .left_sec2 .textbox .profile{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.section2 .left_sec2 .textbox .profile img{
+	width: 30px; height: 30px;
+	border-radius: 50%;
+	transform: translate(-5px,-10px);
+}
+
+.section2 .left_sec2 .textbox .profile h1{
+	width: 150px;
+	font-size: 0.6rem;
+	transform: translateY(-25px);
+}
+
+.section2 .left_sec2 .textbox .profile h4{
+	width: 150px;
+	font-size: 0.4rem;
+	transform: translateY(-40px);
+}
+
+.section3{
+	width: 100%; height: 250px;
+	background-color: hsl(238, 22%, 44%);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.section3 .right_sec3{
+	width: 50%;
+	transform: translateX(100px);
+}
+
+.section3 .right_sec3 input{
+	width: 400px;
+	margin: 15px 20px 15px 0px;;
+	padding: 10px 30px;
+	border: 0.4px solid hsl(0, 0%, 75%);
+	border-radius: 2px;
+	box-shadow: 0px 2px 3px 0px hsl(243, 87%, 12%);
+	outline: none;
+}
+
+.section3 .right_sec3 aside button{
+	margin: 0px 20px 15px 0px;
+	padding: 10px 40px;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0px 2px 3px 0px hsl(243, 87%, 12%);
+	outline: none;
+	background-color: hsl(224, 93%, 58%);
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.section3 .right_sec3 aside button:hover{
+	background-color: hsl(170, 45%, 43%);
+}
+
+.section3 .left_sec3{
+	width: 35%;
+	margin-left: 160px;
+	color: #fff;
+}
+
+.section3 .left_sec3 h1{
+	font-size: 2rem;
+	margin: 20px 0px;
+}
+
+.section3 .left_sec3 p{
+	width: 80%;
+	margin: 20px 0px;
+	font-size: 0.8rem;
+	font-weight: 100;
+}
+
+footer{
+	width: 100%; height: 300px;
+	background-color: hsl(243, 87%, 12%);
+	color: #fff;	
+}
+
+footer .footerlogo{
+	height: 100px;
+	position: relative;
+}
+
+footer .footerlogo img{
+	width: 110px; height: 30px;
+	position: absolute;
+	bottom: 0;
+	left: 160px;
+}
+
+footer .maininfo{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer .maininfo .info1{
+	margin: 30px 0px;
+	transform: translate(50px,5px);
+	font-size: 12px;
+
+}
+
+footer .maininfo .info1 img{
+	width: 15px; height: 15px;
+	margin-right: 15px;
+}
+
+footer .maininfo .info1 aside{
+	margin: 10px 0px;
+}
+
+footer .maininfo .info2{
+	transform: translateY(25px);
+}
+
+footer .maininfo .info3{
+	transform: translateY(15px);
+}
+
+footer .maininfo li{
+	list-style: none;
+	margin: 10px 0px;
+}
+
+footer .maininfo li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+}
+
+footer .maininfo .contactlogo img{
+	width: 30px; height: 30px;
+	margin: 0px 10px;
+}
